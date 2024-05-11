@@ -2,6 +2,7 @@ import { useState } from "react"
 import "./App.css"
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Keyboard from "./Keyboard"
+import Happy from "./Happy"
 const App = () => {
 
 const [input,setinput]=useState("")
@@ -30,6 +31,10 @@ const [input,setinput]=useState("")
 
   </div>
 </div>
+<div>
+<Happy></Happy>
+</div>
+
 
     </>
   )
